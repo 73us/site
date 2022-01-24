@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/bootstrap.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="shortcut icon" href="./images/bolt.svg" type="image/x-icon" />
+    <title>Lesson 11</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">Portofolio</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="sal d-flex flex-column justify-content-center">
+        <!-- sal = salutation-box -->
+        <h5 class="sal__title text-center text-lg-start ps-lg-5">Hi, It's Théophile Seyrig</h5>
+        <p class="sal__text text-center text-lg-start ps-lg-5">Designer from Porto, Portugal</p>
+        <a href="#" class="sal__link link-light text-center text-lg-start ps-lg-5">Latest works</a>
+      </div>
+    </header>
+    <main>
+      <section class="about container">
+        <h2 class="text-center text-md-start sect-title about__title mt-4">
+          About
+        </h2>
+        <div class="about__text-box container">
+          <p class="text-break">
+            Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero
+            phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in
+            rutrum augue. Pellentesque senectus risus consectetur et sed purus
+            sed. Consectetur adipiscing elit. Egestas porttitor nulla nulla
+            egestas odio pharetra egestas aliquet mollis.
+          </p>
+          <p class="text-break">
+            Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam
+            penatibus aliquet tellus, in rutrum augue. Pellentesque senectus
+            risus consectetur et sed purus sed. Consectetur adipiscing elit.
+            Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet
+            mollis. diam penatibus aliquet tellus, in rutrum augue.
+            Pellentesque.
+          </p>
+        </div>
+      </section>
+      <section class="skills container-fluid">
+        <h2 class="text-center text-md-start sect-title skills__title mt-5">
+          Skills
+        </h2>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-4 col-lg-5 skills__my-photo mt-3">
+              <div class="img"></div>
+            </div>
+            <div class="col-12 col-md-8 col-lg-7 skills__my-skills">
+              <div class="row">
+                <div class="col-4 skills__my-skills__sub-title spec">Profile</div>
+                <div class="col-8 skills__my-skills__desc spec2">
+                  UI / UX Engineer, Front-end Developer
+                </div>
+              </div>
+              <div class="container skills-tab-m">
+                
+                <div class="row mt-11pers mb-3pers">
+                  <div class="col-4 skills__my-skills__sub-title">
+                    Front-end Dev
+                  </div>
+                  <div class="col-8">
+                    <div class="progress">
+                      <div
+                        class="progress-bar p-b-1"
+                        role="progressbar"
+                        style="width: 65%"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mb-6pers">
+                  <div class="col-4 skills__my-skills__sub-title">Tools</div>
+                  <div class="col-8 skills__my-skills__desc">
+                    HTML, CSS, JS, Bootstrap, React
+                  </div>
+                </div>
+
+                <div class="row mb-3pers">
+                  <div class="col-4 skills__my-skills__sub-title">
+                    UI Design
+                  </div>
+                  <div class="col-8">
+                    <div class="progress">
+                      <div
+                        class="progress-bar p-b-2"
+                        role="progressbar"
+                        style="width: 80%"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mb-6pers">
+                  <div class="col-4 skills__my-skills__sub-title">Tools</div>
+                  <div class="col-8 skills__my-skills__desc">
+                    Adobe PS, AI, XD, Figma, InVision
+                  </div>
+                </div>
+
+                <div class="row mb-3pers">
+                  <div class="col-4 skills__my-skills__sub-title">
+                    UX Research
+                  </div>
+                  <div class="col-8">
+                    <div class="progress">
+                      <div
+                        class="progress-bar p-b-3"
+                        role="progressbar"
+                        style="width: 85%"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mrg">
+                  <div class="col-4 skills__my-skills__sub-title">Tools</div>
+                  <div class="col-8 skills__my-skills__desc">
+                    Paper, Pen, Balsamiq
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio container">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2
+                class="sect-title portfolio__title ps-md-4 ps-lg-0 mt-5 text-center text-md-start"
+              >
+                Portfolio
+              </h2>
+              <div class="row">
+                <div class="col-12 col-md-4 ps-md-5">
+                  <h6 class="portfolio__sub-title mt-2 text-center text-md-start">
+                    UX Research
+                  </h6>
+                  <p class="portfolio__text text-center text-md-start">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac
+                    dictum nibh nam odio cursus id. Diam massa semper a
+                    tincidunt cursus ultricies lectus eget urna.
+                  </p>
+                </div>
+                <div
+                  class="col-12 col-md-8 portfolio__galery d-flex flex-row justify-content-between"
+                >
+                  <div
+                    class="portfolio__galery__col-l d-flex flex-column justify-content-between"
+                  >
+                    <div class="img1">
+                      <img
+                        src="./images/img-1_small.png"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="img2">
+                      <img
+                        src="./images/img-2_small.png"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="portfolio__galery__col-r d-flex flex-column justify-content-between"
+                  >
+                    <div class="img3">
+                      <img
+                        src="./images/img-3_small.png"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="img4">
+                      <img
+                        src="./images/img-4_small.png"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+    </main>
+    <footer class="footer container-fluid">
+      <h2 class="footer__title mt-5 text-center text-lg-start ps-lg-2">Get in Touch</h2>
+      <div class="row m-for-footer">
+        <div
+          class="footer__column-1 col-6 col-md-3 col-lg-2 col-xxl-4 d-flex flex-column justify-content-between"
+        >
+          <a href="#" class="footer__column-1__link">Dribbble</a>
+          <a href="#" class="footer__column-1__link">Behance</a>
+          <a href="#" class="footer__column-1__link">CodePen</a>
+          <a href="#" class="footer__column-1__link">GitHub</a>
+          <a href="#" class="footer__column-1__link">Medium</a>
+        </div>
+        <div
+          class="footer__column-2 col-6 col-md-6 col-lg-4 col-xxl-4 d-flex flex-column justify-content-between"
+        >
+          <a href="#" class="footer__column-2__link">LinkedIn</a>
+          <a href="#" class="footer__column-2__link">Facebook</a>
+          <a href="#" class="footer__column-2__link">Instagram</a>
+          <a href="#" class="footer__column-2__link">Twitter</a>
+        </div>
+        <div
+          class="footer__column-3 mt-4 col-12 col-md-3 col-lg-6 col-xxl-4 d-flex flex-column justify-content-between"
+        >
+          <a href="#" class="footer__column-3__link text-lg-end">seyrig@mailme.com</a>
+          <a href="#" class="footer__column-3__phone-mnb text-lg-end">+ 55 6645 665544</a>
+        </div>
+      </div>
+      <div class="to_top"></div>
+    </footer>
+    <script src="./js/bootstrap.bundle.js"></script>
+  </body>
+</html>
